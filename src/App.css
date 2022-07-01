@@ -17,25 +17,25 @@
 .gambar {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
 }
 
 .konten {
   width: 100%;
 }
 
-.kantak1 {
+.tlp {
   font-size: 16px;
   font-weight: 500;
   text-underline-offset: 8px;
 }
 
-.kantak2 {
+.nama {
   font-size: 25px;
   font-weight: 700;
 }
 
-.kantak3 {
+.mail {
   font-size: 16px;
   font-weight: 500;
+  margin-right: 2em;
 }

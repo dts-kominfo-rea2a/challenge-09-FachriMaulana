@@ -2,14 +2,14 @@
 // Kalian bisa membuat CSS sendiri di src/components/Contact.css
 import React from "react";
 
-const Contact = () => {
+const Contact = (props) => {
   return (
     <div className="kantak">
-      <img className="gambar" src={data.photo} alt={data.name} />
+      <img className="gambar" src={props.data.photo} alt={props.data.name} />
       <div className="konten">
-        <h2 className="kontak2">{data.name}</h2>
-        <h5 className="kontak1">{data.phone}</h5>
-        <p className="kontak3">{data.email}</p>
+        <h2 className="nama">{props.data.name}</h2>
+        <h5 className="tlp">{props.data.phone}</h5>
+        <p className="mail">{props.data.email}</p>
       </div>
     </div>
   );
